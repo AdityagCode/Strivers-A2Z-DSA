@@ -1,5 +1,20 @@
-# Ignore Gradle project-specific cache directory
-.gradle
+# Ignore compiled class files
+*.class
 
-# Ignore Gradle build output directory
-build
+# Ignore package files
+*.jar
+*.war
+*.ear
+
+# Ignore build directories
+/bin/
+/build/
+/out/
+
+# Ignore IDE files
+*.log
+*.iml
+.idea/
+.vscode/
+# Ignore temporary files
+*.tmp  
